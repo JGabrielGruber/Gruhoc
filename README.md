@@ -129,7 +129,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the AGPLv3 License. See `LICENSE` for more information.
+Distributed under the AGPLv3 License. See the [License](LICENSE) for more information.
 
 
 
@@ -174,7 +174,7 @@ Project Link: [https://github.com/JGabrielGruber/Gruhoc-Scripts](https://github.
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
 [issues-url]: https://github.com/JGabrielGruber/Gruhoc-Scripts/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/JGabrielGruber/Gruhoc-Scripts/blob/master/LICENSE.txt
+[license-url]: https://github.com/JGabrielGruber/Gruhoc-Scripts/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jgabrielgruber
 [product-screenshot]: images/screenshot.png
