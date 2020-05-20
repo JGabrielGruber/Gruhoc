@@ -75,9 +75,17 @@
 
 **_TO-DO_**
 
+### Requisites
+
+Those are some requisites you need to run this project:
+* Operating System:
+    * Linux Debian-based distribution
+* Wireless network card:
+    * Compatible with 802.11 standard
+
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+These are some packages that the project needs to run correctly:
 * batman-adv
 ```sh
 apt install -y batman-adv
