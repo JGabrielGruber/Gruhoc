@@ -82,6 +82,10 @@ Those are some requisites you need to run this project:
     * Linux Debian-based distribution
 * Wireless network card:
     * Compatible with 802.11 standard
+* CPU:
+    * Minimum 2 Cores at 1 GHz
+* RAM:
+    * Minimum 1 GB
 
 ### Prerequisites
 
