@@ -86,6 +86,8 @@ Those are some requisites you need to run this project:
     * Minimum 2 Cores at 1 GHz
 * RAM:
     * Minimum 1 GB
+* Storage:
+    * Minimum 5 GB
 
 ### Prerequisites
 
