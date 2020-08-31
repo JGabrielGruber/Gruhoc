@@ -1,8 +1,0 @@
-Package: gruhoc-scripts
-Architecture: all
-Maintainer: José Gabriel Gruber
-Depends: iw, ip, batman-adv
-Priority: optional
-Version: 0.1
-Description: Gruhoc project setup scripts
- This script setup a batman mesh ad-hoc network.
