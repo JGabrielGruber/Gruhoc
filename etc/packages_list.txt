@@ -159,6 +159,10 @@ libaudit1:amd64
 libbind9-160:amd64
 libbinutils:amd64
 libblkid1:amd64
+libboost-filesystem1.65.1:amd64
+libboost-iostreams1.65.1:amd64
+libboost-program-options1.65.1:amd64
+libboost-system1.65.1:amd64
 libbsd0:amd64
 libbz2-1.0:amd64
 libc-bin
@@ -215,6 +219,7 @@ libglib2.0-data
 libgmp10:amd64
 libgnutls30:amd64
 libgomp1:amd64
+libgoogle-perftools4
 libgpg-error0:amd64
 libgpm2:amd64
 libgssapi-krb5-2:amd64
@@ -294,6 +299,7 @@ libparted2:amd64
 libpcap0.8:amd64
 libpci3:amd64
 libpcre3:amd64
+libpcrecpp0v5:amd64
 libperl5.26:amd64
 libpipeline1:amd64
 libplymouth4:amd64
@@ -326,6 +332,7 @@ libsepol1:amd64
 libsigsegv2:amd64
 libslang2:amd64
 libsmartcols1:amd64
+libsnappy1v5:amd64
 libsqlite3-0:amd64
 libss2:amd64
 libssl-dev:amd64
@@ -333,8 +340,10 @@ libssl1.0.0:amd64
 libssl1.1:amd64
 libstdc++-7-dev:amd64
 libstdc++6:amd64
+libstemmer0d:amd64
 libsystemd0:amd64
 libtasn1-6:amd64
+libtcmalloc-minimal4
 libtext-charwidth-perl
 libtext-iconv-perl
 libtext-wrapi18n-perl
@@ -363,6 +372,7 @@ libxmuu1:amd64
 libxslt1.1:amd64
 libxtables12:amd64
 libyaml-0-2:amd64
+libyaml-cpp0.5v5:amd64
 libzstd1:amd64
 linux-base
 linux-firmware
@@ -400,6 +410,12 @@ mawk
 mdadm
 mime-support
 mlocate
+mongo-tools
+mongodb
+mongodb-clients
+mongodb-server
+mongodb-server-core
+motd-news-config
 mount
 mtr-tiny
 multiarch-support
