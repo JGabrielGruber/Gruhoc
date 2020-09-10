@@ -1,0 +1,12 @@
+#!/bin/bash
+
+. /etc/gruhoc/locations.conf
+. /etc/gruhoc/node.conf
+
+TMHOME=$TMHOME tendermint init
+CONFIG=$TMHOME/config/config.toml
+gawk -i inplace -v t="moniker" -v r="\"$NODE_NAME\"" 'BEGIN{FS=OFS="="}match($1, "^\\s*" t "\\s*") {$2=" " r}1' $CONFIG
+gawk -i inplace -v t="create_empty_blocks" -v r="false" 'BEGIN{FS=OFS="="}match($1, "^\\s*" t "\\s*") {$2=" " r}1' $CONFIG
+gawk -i inplace -v t="send_rate" -v r="102400000" 'BEGIN{FS=OFS="="}match($1, "^\\s*" t "\\s*") {$2=" " r}1' $CONFIG
+gawk -i inplace -v t="recv_rate" -v r="102400000" 'BEGIN{FS=OFS="="}match($1, "^\\s*" t "\\s*") {$2=" " r}1' $CONFIG
+gawk -i inplace -v t="recheck" -v r="false" 'BEGIN{FS=OFS="="}match($1, "^\\s*" t "\\s*") {$2=" " r}1' $CONFIG
