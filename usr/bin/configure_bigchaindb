@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. /etc/gruhoc/locations.conf
+
+BIGCHAINDB_CONFIG_PATH=$BIGCHAINDB_CONFIG_PATH bigchaindb configure
