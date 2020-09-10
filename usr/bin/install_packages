@@ -2,3 +2,8 @@
 apt update && apt upgrade && apt install python3 python3-pip libssl-dev mongodb
 pip3 install -U pip
 pip3 install bigchaindb==2.2.1 --ignore-installed PyYAML
+apt install -y unzip
+wget https://github.com/tendermint/tendermint/releases/download/v0.31.5/tendermint_v0.31.5_linux_amd64.zip
+unzip tendermint_v0.31.5_linux_amd64.zip
+rm tendermint_v0.31.5_linux_amd64.zip
+mv tendermint /usr/local/bin
