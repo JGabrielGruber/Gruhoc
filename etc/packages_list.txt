@@ -377,8 +377,6 @@ libzstd1:amd64
 linux-base
 linux-firmware
 linux-generic
-linux-headers-4.15.0-112
-linux-headers-4.15.0-112-generic
 linux-headers-4.15.0-115
 linux-headers-4.15.0-115-generic
 linux-headers-4.15.0-117
@@ -420,6 +418,7 @@ mongodb
 mongodb-clients
 mongodb-server
 mongodb-server-core
+monit
 motd-news-config
 mount
 mtr-tiny

@@ -1,5 +1,5 @@
 #!/bin/bash
-apt update && apt upgrade && apt install python3 python3-pip libssl-dev mongodb
+apt update && apt upgrade && apt install python3 python3-pip libssl-dev mongodb monit
 pip3 install -U pip
 pip3 install bigchaindb==2.2.1 --ignore-installed PyYAML
 apt install -y unzip
