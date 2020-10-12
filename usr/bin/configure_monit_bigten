@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. /etc/gruhoc/locations.conf
+
+MONIT_PID_PATH=/var/run MONIT_LOG_PATH=/var/log  MONITRC_PATH=/etc/monit/conf-enabled/bigchaindb BIGCHAINDB_CONFIG_PATH=$BIGCHAINDB_CONFIG_PATH MONIT_SCRIPT_PATH=$BIGCHAINDB_SCRIPT_PATH  bigchaindb-monit-config
